@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&family=Raleway&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --WIDTH-BASE: 1402px;
+    --COLOR-MAIN: #FF8B38;
+}
+
+.body {
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: var(--WIDTH-BASE);
+    height: 1009px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+
+/* TOP SECtION */
+
+
+section {
+    display: inline-block;
+    width: 350px;
+    height: 197px;
+    margin-top: 80px;
+}
+
+.line-top {
+    width: 64px;
+    margin: 30px auto 0;
+    color: var(--COLOR-MAIN);
+}
+
+.top__head-title {
+    padding-top: 110px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 0.5ch;
+}
+
+.top__head-text {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.icon {
+    display: block;
+    margin: 0 auto;
+    padding-top: 19px;
+}
+
+.circle {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    border: 1px solid var(--COLOR-MAIN);
+    border-radius: 35px;
+}
+
+.keyboard {
+    padding-top: 25px;
+}
+
+.slogan__left {
+    margin-left: 143px;
+}
+
+.slogan__right {
+    margin-right: 143px;
+}
+
+.slogan__center {
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+.slogan__title {
+    margin-top: 29px;
+}
+
+.slogan__text {
+    margin-top: 29px;
+}
+
+
+/* BOTTOM SECTION (background image) */
+
+
+.bottom {
+    width: var(--WIDTH-BASE);
+    height: 323px;
+    background-image: url('img/background_image.png');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    margin-top: 105px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.bottom__title {
+    padding-top: 79px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
+    font-stretch: expanded;
+}
+
+.line-bottom {
+    width: 74px;
+    margin: 32px auto 0;
+    color: #fff;
+}
+
+.bottom__text {
+    padding-top: 32px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.button {
+    display: block;
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 135px;
+    height: 42px;
+    border: 1px solid #fff;
+    background-color: hsla(0, 0%, 0%, 0);
+    color: #fff;
+}
+
+.social__cont {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.801);
+    margin-top: 32px;
+}
+
+
+/* FOOTER */
+
+
+.sprites {
+    display: block;
+    width: 315px;
+    height: 32px;
+}
+
+.footer_text {
+   color: rgba(255, 255, 255, 0.712);
+   font-size: 14px;
+}
+
+footer {
+    width: var(--WIDTH-BASE);
+    height: 99px;
+    background-color: black;
+    text-align: center
+}
